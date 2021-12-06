@@ -1,0 +1,125 @@
+body {
+  /*font found at https://fonts.google.com/?query=mon*/
+  /* 16px = 100% font*/
+  background-color: #EEEBDD;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.profile-para{
+  width: auto;
+  margin: auto;
+  text-align: justify;
+  color: #40514E;
+  line-height: 2;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.trademark{
+  color: #EAF6F6;
+}
+
+
+.tool-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.z-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+  margin: 50 auto 0 auto;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3, a{
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  color: #630000;
+  padding-top: 96px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 30px;
+  margin-top: 96px;
+}
+
+/*#text_center {
+  text-align: center;
+}*/
